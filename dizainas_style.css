@@ -115,7 +115,8 @@ a:hover {
     display: inline;
     width:31%;
     float:left;
-    margin-right:0px;    
+    margin-right:0px;  
+    margin-bottom: 50px;  
 }
 
 .chairs {
@@ -129,35 +130,36 @@ a:hover {
 }
 
 .super-article {
-    display:inline;
+display:inline;
 }
 
 .date {
-    display: inline;
+display: inline;
 }
 
 .pictures {
-    width: 100%;
-gap:10px
-}
-
-.row {
-    display: flex;
 width: 100%;
 }
 
+.row {
+display: flex;
+justify-content: space-between;
+width: 100%;
+text-decoration:none;
+}
+
 .col {
-    width:34%;
+width:34%;
 }
 
 .lamp {
-    width:364px;
-    height:364px;
+width:404px;
+height:404px;
 }
 
 .shoe {
-    width:364px;
-    height:590px
+    width:404px;
+    height:550px
 }
 
 .hear-more {
@@ -165,25 +167,34 @@ font-weight: bold;
 }
 
 .grid-container {
-display: inline-grid;
-grid-column-gap: 60px;
-grid-template-columns: 1fr 1fr 2fr
+display: grid;
+grid-column-gap: 50px;
+grid-template-columns: repeat(3, auto);
+justify-content:space-between;
 }
 
 .grid-container img {
 max-width: 100%; 
-height: auto
+height: auto;
 }
 
 .grid-container h2 {
 max-width: 100%; 
-height: auto;
+max-height: 100%;
 }
 
 .grid-container p {
 max-width: 100%; 
 height: auto;
 font-weight: bold;
+}
+
+.grid-item3 {
+    padding: 70px 0;
+}
+
+.about-us {
+margin-top: 50px;
 }
 
 input[type=text], textarea {
