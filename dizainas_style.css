@@ -283,4 +283,35 @@ object-fit: cover;
 margin-left: 50px;
 }
 
+.logo1 {
+max-width: 64px; 
+margin-left: 100px;   
+margin-right: 10px; 
+}
+
+.bottom-container {
+margin: 0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+max-width: 1280px;
+background: black;
+}
+
+.footer-logo {
+display: flex;
+flex-wrap:nowrap;
+justify-content:left;
+}
+
+.footer-logo1 {
+margin-left: auto;
+}
+
+.all-rights {
+font-size: 12px;  
+padding-top: 10px;  
+color: rgb(146, 138, 138);
+}
+
+
 
