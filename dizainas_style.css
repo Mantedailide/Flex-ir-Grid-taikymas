@@ -135,6 +135,8 @@ display:inline;
 
 .date {
 display: inline;
+color: lightgray;
+padding-top: 30px;
 }
 
 .pictures {
@@ -158,8 +160,8 @@ height:404px;
 }
 
 .shoe {
-    width:404px;
-    height:550px
+width:404px;
+height:550px
 }
 
 .hear-more {
@@ -174,8 +176,10 @@ justify-content:space-between;
 }
 
 .grid-container img {
-max-width: 100%; 
+max-width: 100%;
 height: auto;
+object-fit: cover;
+display: inline;
 }
 
 .grid-container h2 {
@@ -189,12 +193,50 @@ height: auto;
 font-weight: bold;
 }
 
+.grid-item1 {
+position: relative; 
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.grid-item2 {
+display:flex;
+position: relative; 
+}
+
+.hover {
+font-size: 30px; 
+font-weight: bold;  
+text-align: center;
+box-sizing: border-box;
+width: 50%;
+padding: 10px;
+position: absolute;
+bottom: 0; left: 0;
+background-color:yellow;
+color: black;
+visibility: none; 
+opacity: 0;
+transition: opacity 0.3s;
+}
+
+.hover1 {
+font-size: 20px;   
+color:white;
+}
+
+.hover:hover {
+visibility: visible; 
+opacity: 1;
+}
+
 .grid-item3 {
-    padding: 70px 0;
+padding: 70px 0;
 }
 
 .about-us {
-margin-top: 50px;
+margin-top: 90px;
 }
 
 input[type=text], textarea {
